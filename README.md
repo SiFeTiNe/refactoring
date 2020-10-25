@@ -386,51 +386,51 @@ At `private void pictureBox12_Click(object sender, EventArgs e)` method
         {
             if (textBox1.Text.Length != 0 && labelOperator.Text.Length != 0)
             {
-                if (labelOperator.Text == plusText)
+                if (labelOperator.Text.Equals(plusText))
                 {
                     textBox1.Text = (double.Parse(textBox2.Text) + double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == minusText)
+                else if (labelOperator.Text.Equals(minusText))
                 {
                     textBox1.Text = (double.Parse(textBox2.Text) - double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == mulText)
+                else if (labelOperator.Text.Equals(mulText))
                 {
                     textBox1.Text = (double.Parse(textBox2.Text) * double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == divText)
+                else if (labelOperator.Text.Equals(divText))
                 {
                     textBox1.Text = (double.Parse(textBox2.Text) / double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == sqrtText)
+                else if (labelOperator.Text.Equals(sqrtText))
                 {
                     textBox1.Text = Math.Sqrt(double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == rootText)
+                else if (labelOperator.Text.Equals(rootText))
                 {
                     textBox1.Text = Math.Pow(double.Parse(textBox2.Text), 1 / double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == pow2Text)
+                else if (labelOperator.Text.Equals(pow2Text))
                 {
                     textBox1.Text = Math.Pow(double.Parse(textBox1.Text), 2).ToString();
                 }
-                else if (labelOperator.Text == powText)
+                else if (labelOperator.Text.Equals(powText))
                 {
                     textBox1.Text = Math.Pow(double.Parse(textBox2.Text), double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == sinText)
+                else if (labelOperator.Text.Equals(sinText))
                 {
                     textBox1.Text = Math.Sin(double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == cosText)
+                else if (labelOperator.Text.Equals(cosText))
                 {
                     textBox1.Text = Math.Cos(double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == tanText)
+                else if (labelOperator.Text.Equals(tanText))
                 {
                     textBox1.Text = Math.Tan(double.Parse(textBox1.Text)).ToString();
                 }
-                else if (labelOperator.Text == percentText)
+                else if (labelOperator.Text.Equals(percentText))
                 {
                     textBox1.Text = (double.Parse(textBox1.Text) * double.Parse(textBox2.Text) / 100).ToString();
                 }
