@@ -1,4 +1,4 @@
-# refactoring
+# Refactoring
 ## Calculator
 From my Calculator repository (C#): https://github.com/keyboard2543/Calculator
 
