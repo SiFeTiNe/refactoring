@@ -161,7 +161,7 @@ Before refactoring:
                 labelOperator.Text = pow2Text;
         }
 ```
-Extract `private void Operate(string textOperatorToOperate)` methods
+Extract `private void Operate(string textOperatorToOperate)` methods</br>
 After refactoring: 
 ```
     ...
@@ -310,7 +310,7 @@ At `private void pictureBox12_Click(object sender, EventArgs e)` method</br>
 
         ...
 ```
-Use Equals method
+Use Equals method</br>
 After refactoring:
 ```
         ...
@@ -441,7 +441,7 @@ At `private void pictureBox12_Click(object sender, EventArgs e)` method
 
         ...
 ```
-Use switch...case
+Use switch...case</br>
 After refactoring: 
 ```
         ...
